@@ -4,7 +4,7 @@ import serial
 from time import sleep
 import subprocess
 flag=0
-ser = serial.Serial('/dev/ttyACM0', 9600)
+ser = serial.Serial('/dev/ttyACM0', 9600)#for linux
 ser.write('H')
 #retval=ser.readline()
 ##f = open("arduino_sensor_data.txt", "w")
